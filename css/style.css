@@ -1,0 +1,42 @@
+img {
+    height: 200px !important;
+    width: auto !important;
+}
+
+#picture {
+    all:unset !important;
+}
+/*
+article {
+    border-color: #BAD455;
+    border-style: dotted;
+}
+
+body { 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10%;
+}
+
+ul{
+    justify-content: center;
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 0;
+} */
+
+.container , #videoBox{
+    display: grid;
+}
+
+#videoBox{ /*took a css workshop wew*/
+    justify-content: center !important;
+    grid-template-rows: 1fr, 1fr !important;
+    grid-template-areas: "video picture" !important;
+}
+
+div {
+    margin: 20px;
+}
