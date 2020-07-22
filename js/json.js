@@ -1,3 +1,12 @@
+/*
+    Title: COMP 1073 Lab 9 - API's continued
+    Author: Tim Aryavong
+    Date: July 22, 2020
+    Description: Adding Browser API to lab 8,
+    Chose to add media stream. Adds webcam interface for video and pictures.
+    Does not save video or picture, just gets media stream working.
+*/
+
 let articleHead = document.createElement('h1'); //should have just made an html
 let articleHead2 = document.createElement('h2');
 let articleHead3 = document.createElement('h2');

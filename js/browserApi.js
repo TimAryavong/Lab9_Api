@@ -1,4 +1,13 @@
 'use strict';
+/*
+    Title: COMP 1073 Lab 9 - API's continued
+    Author: Tim Aryavong
+    Date: July 22, 2020
+    Description: Adding Browser API to lab 8,
+    Chose to add media stream. Adds webcam interface for video and pictures.
+    Does not save video or picture, just gets media stream working.
+*/
+
 
 let videoHead = document.createElement("h2"); // declare elements and attributes
 videoHead.setAttribute('class', 'display-4 text-center');
@@ -75,7 +84,6 @@ body.appendChild(div);
 
 pictureBtn.addEventListener('click', takePicture); // bind buttons
 videoBtn.addEventListener('click', getVideo);
-
 
 // Reference for errors: https://blog.addpipe.com/common-getusermedia-errors/
 // All other References: https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API
